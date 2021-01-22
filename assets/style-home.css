@@ -1,0 +1,221 @@
+.homepage{
+    font-family: 'Ubuntu';
+    margin: auto;
+    height: auto;
+    max-width: 360px;
+    top: 0px;
+}
+
+.ikon-menu{
+    height: 24px;
+    width: 24px;
+    right: 0px;
+    margin-top: 16px;
+}
+
+.menu-bar{
+    margin-left: 320px;
+}
+
+.company-group{
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 22px 22px 31px 18px;
+}
+
+.info{
+    margin-left: 15px;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4a4a4a;
+    height: 18px;
+    width: 97px;
+    left: 109px;
+    top: 127px;
+    margin-left: 6px;
+}
+
+.tagline{
+    height: 14px;
+    width: 187px;
+    left: 109px;
+    top: 153px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 6px;
+    margin-top: 8px;
+    color: #4a4a4a;
+}
+
+.location{
+    height: 14px;
+    width: auto;
+    left: 131px;
+    top: 185px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #888888;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.tab-bar{
+    display: flex;
+    background: #ffffff;
+}
+
+.tab-bar a{
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+}
+
+.tab-bar a:hover{
+    border-bottom: 2px solid #0496FF;
+    margin-bottom: -2px;
+    color: #0496FF;
+}
+
+.tab-bar, .tab-bar a :active{
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 12px;
+}
+
+.tab-bar .tab-produk{
+    text-decoration: none;
+    height: 34px;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+}
+
+.tab-bar .tab-promo{
+    height: 34px;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+}
+
+.card{
+    display: flex;
+}
+
+.produk{
+    flex: 1;
+    width: 156px;
+    border: 1px solid #dddddd;
+    margin: 0px 8px 12px 8px;
+}
+
+.img-produk img{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.detail-produk{
+    margin: 8px 8px 8px 8px;
+}
+
+.nama-produk{
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4a4a4a;
+    font-weight: 500;
+    height: 42px;
+}
+
+.harga-barang{
+    width: 140px;
+    margin-top: auto;
+}
+
+.harga-normal{
+    height: 11px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    text-decoration-line: line-through;
+    color: #888888;
+    margin-right: 10px;
+}
+
+.harga-diskon{
+    height: 18px;
+    font-family: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0496FF;
+    font-weight: 500;
+    height: 18px;
+    width: 79px;
+    left: 257px;
+    top: 487px;
+}
+
+.tag-produk-content{
+    margin: 12px 0px 8px 8px;
+}
+
+.tag-produk{
+    background: #0496FF;
+    border-radius: 4px;
+    width: 54px;
+    height: 17px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    border: none;
+}
+
+.button{
+    width: 328px;
+    height: 42px;
+    margin-left: 16px;
+    background: #0274DB;
+    box-shadow: 0px 2px 7px #4a4a4a;
+    border-radius: 8px;
+    position: fixed;
+    margin-top: 32px;
+    border: none;
+}
+
+.button .btn-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button img{
+    margin: -12px 0px 12px 0px;
+    margin-top: 12px;
+    margin-right: 10.55px;
+}
+
